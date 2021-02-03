@@ -1,0 +1,29 @@
+This is a guide to the player config options in the config.json file.
+
+"PlatonicNPCs" specifies which marriage candidates you would like to instead have platonic relationships with. 
+	By default, all vanilla marriage candidates are enabled. Currently, only vanilla characters are supported. (In this version, Maru, Emily, Leah, Shane, Alex and Abigail are supported.)
+  If a character's name is included in the list, their romantic dialogue and heart events will be patched with platonic rewrites. 
+	If you want to have a romantic relationship with a particular marriage candidate, simply delete their name from the list and they will keep their vanilla dialogue and events.
+	If ANY character names are in the list, generic references in the game to dating/marriage will be patched to be inclusive of platonic relationships. If the list is blank, the entire patch is effectively disabled. 
+  Switching a character between platonic and vanilla may cause continuity errors in their story arc, but shouldn't cause any mechanical bugs. 
+
+"RelationshipLabel" specifies what you would like to call a platonic long-term commitment with an NPC (i.e., when you give someone in PlatonicNPCs a pendant). 
+	It defaults to "partners," but you can change it to "business partners," "housemates," or whatever you prefer.
+	If you "marry" a character you have set to platonic (in PlatonicNPCs), characters will refer to your relationship with the label you chose.
+	Avoid using special characters (!, @, ", %, etc), since this may cause errors. 
+	It's best to phrase your label in a way that would grammatically fit into a sentence like "I can't believe we're going to be [label]!" or "I love being [label] with you."
+
+"TermofEndearment" specifies one affectionate term you would like a platonic partner (someone in PlatonicNPCs whom you gave a pendant) to use for you.
+	It defaults to your farmer's name (represented by "@"), but you could change it to "Bestie," "Love," "Angel," "Homie," or whatever you prefer.
+	The term you choose should start with a capital letter. It will be automatically converted to lowercase when used in the middle of sentences, unless it's "@" or "BFF".
+	Your partner will alternate between the term you choose here, your farmer's name, and one or two terms unique to that NPC.
+
+"EnablePortraitandSpriteEdits" determines whether this patch will affect portraits and sprites. 
+	When true, wedding dresses will be recolored and some portraits will be edited (e.g., blush removed from some 'love' portraits.)
+	These changes are currently compatible with the vanilla game and the Seasonal Villager Outfits mod. 
+	If you are using another mod that changes sprite appearance or character portraits, set this option to false to disable it, preventing conflicts.   
+	When this option is disabled, the patch will apply versions of the platonic dialogue and events that don't use the love portrait, so NPCs you have set to platonic still won't blush. 
+
+"PlatonicMultiplayer" determines whether your marriages to other players in multiplayer are platonic. This function is currently unfinished.
+	When true, game text relating to marriages will be rewritten to be compatible with a platonic partnership. 
+	Only you will see the altered text, not others in the server, unless they also have this patch with this option enabled.
