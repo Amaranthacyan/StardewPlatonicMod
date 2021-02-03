@@ -1,0 +1,30 @@
+{
+  "Name": "Platonic Friends With Anyone",
+  "Author": "Amaranthacyan",
+  "Version": "0.0.6",
+  "Description": "Lets the player designate dateable NPCs as platonic friends rather than love interests, replacing their romantic dialogue and events with platonic rewrites.",
+  "UniqueID": "Amaranthacyan.PlatonicFriendsWithAnyone",
+  "MinimumApiVersion": "3.9.1",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.CustomFixedDialogue",
+   },
+   {  "UniqueID": "Hana.GenderNeutralityMod",
+      "IsRequired": false
+   },
+   {  "UniqueID": "gizzymo.canonfriendlyexpansion",
+      "IsRequired": false
+   },
+   {  "UniqueID": "Tanpoponoko.SeasonalOutfits",
+      "IsRequired": false
+   },
+   {  "UniqueID": "DSVTeam.DiverseSeasonalOutfits",
+      "IsRequired": false
+   }
+   ]
+}
+ 
