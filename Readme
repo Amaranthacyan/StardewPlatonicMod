@@ -1,11 +1,11 @@
 This is a guide to the player config options in the config.json file.
 
 "PlatonicNPCs" specifies which marriage candidates you would like to instead have platonic relationships with. 
-	By default, all vanilla marriage candidates are enabled. Currently, only vanilla characters are supported. (In this version, Maru, Emily, Leah, Shane, Alex and Abigail are supported.)
-  If a character's name is included in the list, their romantic dialogue and heart events will be patched with platonic rewrites. 
-	If you want to have a romantic relationship with a particular marriage candidate, simply delete their name from the list and they will keep their vanilla dialogue and events.
-	If ANY character names are in the list, generic references in the game to dating/marriage will be patched to be inclusive of platonic relationships. If the list is blank, the entire patch is effectively disabled. 
-  Switching a character between platonic and vanilla may cause continuity errors in their story arc, but shouldn't cause any mechanical bugs. 
+        By default, all vanilla marriage candidates are enabled. Currently, only vanilla characters are supported. (In this version, Maru, Emily, Leah, Shane, Alex and Abigail are supported.)
+        If a character's name is included in the list, their romantic dialogue and heart events will be patched with platonic rewrites. 
+        If you want to have a romantic relationship with a particular marriage candidate, simply delete their name from the list and they will keep their vanilla dialogue and events.
+        If ANY character names are in the list, generic references in the game to dating/marriage will be patched to be inclusive of platonic relationships. If the list is blank, the entire patch is effectively disabled. 
+        Switching a character between platonic and vanilla may cause continuity errors in their story arc, but shouldn't cause any mechanical bugs. 
 
 "RelationshipLabel" specifies what you would like to call a platonic long-term commitment with an NPC (i.e., when you give someone in PlatonicNPCs a pendant). 
 	It defaults to "partners," but you can change it to "business partners," "housemates," or whatever you prefer.
